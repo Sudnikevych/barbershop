@@ -11,11 +11,19 @@
       rel="stylesheet"
     />
     <title>Barbershop</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <!--header-->
+    <!----------------------header-->
     <header class="header">
+      <div class="container">
       <nav class="header-nav">
         <a class="header-logo" href="./index.html">
           <img src="./images/Logo.svg" alt="logo" />
@@ -37,11 +45,13 @@
       </nav>
       <a class="header-tel link" href="tel:+380441111111">+38 044 111 11 11</a>
       <button type="button" class="header-btn btn">online appointment</button>
+      </div>
     </header>
 
     <main>
-      <!--hero-->
+      <!----------------------------hero-->
       <section class="hero">
+        <div class="container">
         <ul class="hero-list list">
           <li class="hero-item">
             <a
@@ -71,10 +81,12 @@
           and tastefully.
         </p>
         </div>
+        </div>
       </section>
 
-      <!--about-->
+      <!-------------------------------------about-->
       <section id="about" class="about">
+        <div class="container">
         <ul class="about-list list">
           <li class="about-item">
             <img
@@ -107,10 +119,12 @@
           to us!
         </p>
         <button type="button" class="about-btn btn">online appointment</button>
+        </div>
       </section>
 
-      <!--Services and prices-->
+      <!--------------------------------Services and prices-->
       <section id="prices" class="prices">
+        <div class="container">
         <p class="prices-top-text top-text">Spend time in the company of the best craftsmen</p>
         <h2 class="prices-title title">Services and prices</h2>
         <ul class="prices-list list">
@@ -150,10 +164,12 @@
           </li>
         </ul>
         <button type="button" class="prices-btn btn">online appointment</button>
+        </div>
       </section>
 
-      <!-- Benefits -->
+      <!--------------------------------- Benefits -->
       <section class="benefits">
+        <div class="container">
         <ul class="benefits-list list">
           <li class="benefits-item">
             <span class="benefits-item-count">600</span>
@@ -178,10 +194,12 @@
           О нас говорят только хорошее. Но лучше 1 раз увидеть и прочувствовать,
           чем 10 раз прочитать.
         </p>
+        </div>
       </section>
 
-      <!--Masters-->
+      <!--------------------------------Masters-->
       <section id="masters" class="masters">
+        <div class="container">
         <p class="masters-top-text top-text">For true connoisseurs of the atmosphere</p>
         <h2 class="masters-title title">Our masters</h2>
         <ul class="masters-list list">
@@ -216,9 +234,10 @@
             <p class="masters-item-text">Extreme Barber</p>
           </li>
         </ul>
+        </div>
       </section>
 
-      <!--Gallery-->
+      <!------------------------------Gallery-->
       <section class="gallery">
         <p class="gallery-top-text top-text">In Latin "barba" means "beard"</p>
         <h2 class="visually-hidden">Gallery</h2>
@@ -258,12 +277,12 @@
         </ul>
       </section>
 
-      <!--Online-->
+      <!----------------------Online-->
       <section id="contacts" class="online">
         <h2 class="online-title title">Online appointment</h2>
       </section>
 
-    <!-- Contacts -->
+    <!------------------------- Contacts -->
       <section class="contacts">
         <h2 class="contacts-title title">Contacts</h2>
         <address class="contacts-address">
